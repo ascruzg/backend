@@ -1,0 +1,1 @@
+[{"title":"Huevo","description":"un huevo rico","price":700,"thumbnail":"https:/1","code":"ab","stock":10,"id":1}]{"title":"leche","description":"colanta","price":1000,"thumbnail":"https:/2","code":"ac","stock":15,"id":2}
