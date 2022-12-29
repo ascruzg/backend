@@ -28,8 +28,11 @@ fsPromises.writeFile(nombre_archivo,mejoresAlumnos)
 async function pushAlumnos (){
     await fsPromises.appendFile(nombre_archivo,otrosAlumnos);
     console.log("Alejandra guardada con exito")
-    const data = await fsPromises.readFile(nombre_archivo, "utf-8");
-    console.log(data);
+    const data = await fsPromises.readFile(nombre_archivo, "utf-8")
+    .then(()=>{
+        console.log(data);
+    })
+    
 }
     
 
